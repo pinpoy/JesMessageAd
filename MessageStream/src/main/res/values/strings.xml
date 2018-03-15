@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PiWen</string>
+
+    <!--订单管理-->
+    <string name="order_for_shipping">待配送</string>
+    <string name="order_in_distribution">等待确认</string>
+    <string name="order_in">配送中</string>
+    <string name="order_been_completed">已完成</string>
+</resources>
