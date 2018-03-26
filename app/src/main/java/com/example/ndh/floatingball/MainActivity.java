@@ -61,10 +61,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private TextView mUnInstall;
 
 
-    AdView bannerAdView;
-    RelativeLayout rl;
+    private AdView bannerAdView;
+    private RelativeLayout rl;
     private ImageView ivClose;
-    AdView interstialAdView;
+    private AdView interstialAdView;
     private Message.ResultBean.DataBean dataBeanTest = new Message.ResultBean.DataBean();
 
     @TargetApi(Build.VERSION_CODES.M)

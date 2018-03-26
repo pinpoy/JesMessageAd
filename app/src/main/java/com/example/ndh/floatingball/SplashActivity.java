@@ -40,7 +40,7 @@ public class SplashActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
-        AdView.preLoad(this);
+        AdView.preLoad(this);//s0c410d3
         AdView initialView = new AdView(this, AdSize.Initial, "s30525e3"); //sec1eb6c s1bf1cbb
         initialView.setListener(new AdView.AdViewListener() {
 

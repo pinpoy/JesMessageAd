@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/FloatingBall-master.iml" filepath="$PROJECT_DIR$/FloatingBall-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JesMessageAd.iml" filepath="$PROJECT_DIR$/JesMessageAd.iml" />
       <module fileurl="file://$PROJECT_DIR$/MessageStream/MessageStream.iml" filepath="$PROJECT_DIR$/MessageStream/MessageStream.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
