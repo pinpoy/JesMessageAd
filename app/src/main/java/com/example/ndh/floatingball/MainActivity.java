@@ -61,11 +61,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private TextView mUnInstall;
 
 
-    private AdView bannerAdView;
-    private RelativeLayout rl;
-    private ImageView ivClose;
-    private AdView interstialAdView;
-    private Message.ResultBean.DataBean dataBeanTest = new Message.ResultBean.DataBean();
+
 
     @TargetApi(Build.VERSION_CODES.M)
     @Override
@@ -102,7 +98,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     }
 
-
+    private AdView bannerAdView;
+    private RelativeLayout rl;
+    private ImageView ivClose;
+    private AdView interstialAdView;
+    private Message.ResultBean.DataBean dataBeanTest = new Message.ResultBean.DataBean();
     private void initAdView() {
         //添加可点击的按钮
         OpenStream.addClickView(getSupportFragmentManager());
